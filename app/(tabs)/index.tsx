@@ -1,10 +1,10 @@
 import { View, Text, StyleSheet } from "react-native";
 
-export default function HomeScreen() {
+export default function Home() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Dronix</Text>
-      <Text style={styles.subtitle}>Sistema de control de drones</Text>
+      <Text style={styles.title}>DRONIX</Text>
+      <Text style={styles.subtitle}>Centro de Control</Text>
     </View>
   );
 }
@@ -13,18 +13,17 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#000",
-    alignItems: "center",
     justifyContent: "center",
+    alignItems: "center",
   },
   title: {
-    color: "#fff",
-    fontSize: 32,
+    color: "#0af",
+    fontSize: 40,
     fontWeight: "bold",
   },
   subtitle: {
     color: "#ccc",
-    marginTop: 8,
     fontSize: 16,
+    marginTop: 10,
   },
 });
-  
